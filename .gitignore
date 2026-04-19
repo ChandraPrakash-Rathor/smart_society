@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# lock files (optional but recommended ignore)
+package-lock.json
+yarn.lock
+
+# build files
+dist/
+build/
+
+# logs
+npm-debug.log*
