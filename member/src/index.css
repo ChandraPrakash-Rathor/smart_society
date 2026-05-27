@@ -1,15 +1,26 @@
 @import "tailwindcss";
 
+@keyframes modalIn {
+  from { opacity: 0; transform: scale(0.95) translateY(8px); }
+  to   { opacity: 1; transform: scale(1)    translateY(0);   }
+}
+
+@keyframes scanLine {
+  0%   { top: 10%; }
+  50%  { top: 85%; }
+  100% { top: 10%; }
+}
+
 @theme {
-  --color-brand-50: #faf5ff;
-  --color-brand-100: #f4e7ff;
-  --color-brand-200: #ead3ff;
-  --color-brand-300: #dab1ff;
-  --color-brand-400: #c57fff;
-  --color-brand-500: #aa41fe;
-  --color-brand-600: #9c2bf2;
-  --color-brand-700: #871ad6;
-  --color-brand-800: #721bae;
-  --color-brand-900: #5e178c;
-  --color-brand-950: #400368;
+  --color-brand-50:  #f5f4fe;
+  --color-brand-100: #edebfc;
+  --color-brand-200: #dedafa;
+  --color-brand-300: #c5bcf6;
+  --color-brand-400: #a795f0;
+  --color-brand-500: #896ae8;
+  --color-brand-600: #784add;
+  --color-brand-700: #6838c9;
+  --color-brand-800: #5a30ae;
+  --color-brand-900: #49288a;
+  --color-brand-950: #2c185d;
 }
